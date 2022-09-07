@@ -1,0 +1,128 @@
+/* ESTILOS PROPIOS */
+
+/* COLORS */
+:root {
+  --cPrimary: #00556e;
+  --cLight: #fcfcfc;
+  --cDark: #232323;
+  --cSecondary: #f2f9fb;
+  --cAccent: #d82017;
+  --cInfo: #f7d85d;
+}
+
+.cb-primary{
+  background: var(--cPrimary);
+}
+
+.cb-light{
+  background: var(--cLight);
+}
+
+.cb-dark{
+  background: var(--cDark);
+}
+
+.cb-secondary{
+  background: var(--cSecondary);
+}
+
+.cb-accent{
+  background: var(--cAccent);
+}
+
+.cb-info{
+  background: var(--cInfo);;
+}
+
+
+
+.color-primary{
+  color: var(--cPrimary);
+}
+
+.color-light{
+  color: var(--cLight);
+}
+
+.color-dark{
+  color: var(--cDark);
+}
+
+.color-secondary{
+  color: var(--cSecondary);
+}
+
+.color-accent{
+  color: var(--cAccent);
+}
+
+.color-info{
+  color: var(--cInfo);;
+}
+
+
+.boton-outline-primary {
+  color: var(--cPrimary);
+  border-color: var(--cPrimary);
+}
+
+
+thead {
+  background-color: var(--cPrimary);
+  color: var(--cLight);
+}
+
+
+// estilos del logo
+ .logo-image {
+  float: left;
+  line-height: .8;
+  margin-left: .8rem;
+  margin-right: .5rem;
+  margin-top: -7px;
+  max-height: 50px;
+  width: auto;
+}
+
+ .logo-image-xs {
+  float: left;
+  line-height: .8;
+  margin-top: -.8rem;
+  max-height: 55px;
+  width: auto;
+}
+
+ .logo-image-xl {
+  line-height: .8;
+  max-height: 55px;
+  width: auto;
+}
+
+ .logo-image-xl.single {
+  margin-top: -.3rem;
+}
+
+ .logo-image,
+  .logo-image {
+  height: 50px;
+  margin-bottom: -.25rem;
+  margin-left: .95rem;
+  margin-top: -.70rem;
+}
+
+.logo-image-xs,
+ .logo-image-xs {
+  margin-top: -.8rem;
+  max-height: 55px;
+}
+
+.logo-image-xl,
+ .logo-image-xl {
+  margin-top: -.225rem;
+  max-height: 55px;
+}
+
+
+.btn-close{
+  visibility:hidden;
+}
